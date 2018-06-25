@@ -9,8 +9,8 @@ lib.ssMetadata = [];
 
 
 
-(lib._02_1 = function() {
-	this.initialize(img._02_1);
+(lib._02 = function() {
+	this.initialize(img._02);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,1819,389);
 
@@ -472,7 +472,7 @@ p.nominalBounds = new cjs.Rectangle(-577.3,-199.9,2200.9,1905.2);
 	this.initialize(mode,startPosition,loop,{});
 
 	// 图层_1
-	this.instance = new lib._02_1();
+	this.instance = new lib._02();
 	this.instance.parent = this;
 	this.instance.setTransform(0,0,0.369,0.369);
 
@@ -2544,12 +2544,12 @@ p.nominalBounds = new cjs.Rectangle(-812.1,-566.9,1624.2,1133.8);
 
 
 // stage content:
-(lib._02 = function(mode,startPosition,loop) {
+(lib._01 = function(mode,startPosition,loop) {
 if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{"01":4,vvv:999});
 
 	// timeline functions:
 	this.frame_4 = function() {
-		playSound("_01",-1);
+		playSound("_01_1",-1);
 	}
 	this.frame_199 = function() {
 		/* 淡入影片剪辑
@@ -4633,14 +4633,14 @@ lib.properties = {
 	id: '6BBDE81C217C104BA6932624B7380708',
 	width: 1080,
 	height: 1920,
-	fps: 60,
+	fps: 50,
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/_02_1.png", id:"_02_1"},
+		{src:"images/_02.png", id:"_02"},
 		{src:"images/位图4.jpg", id:"位图4"},
 		{src:"images/Rj0i4kT.png", id:"Rj0i4kT"},
-		{src:"sounds/_01.mp3", id:"_01"}
+		{src:"sounds/_01_1.mp3", id:"_01_1"}
 	],
 	preloads: []
 };
